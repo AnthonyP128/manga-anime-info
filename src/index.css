@@ -376,6 +376,7 @@ select {
 	display: flex;
 	margin-top: 100px;
 	gap: 8vw;
+	padding-bottom: 40px;
 }
 
 .image__chosen {
