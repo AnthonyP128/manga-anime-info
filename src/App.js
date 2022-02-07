@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+import Landing from "./components/Landing";
+import Nav from "./components/Nav";
+import TopAnime from "./components/pages/TopAnime";
+import Search from "./components/pages/Search";
+import Info from "./components/pages/Info";
+
+// API That i am using
+// https://docs.api.jikan.moe/
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<div className="App">
+				<Nav />
+				<Routes>
+					<Route path="/" element={<Landing />}></Route>
+					<Route path="/TopAnime" element={<TopAnime />}></Route>
+					<Route path="/search" element={<Search />}></Route>
+					<Route path="/manga/:id" element={<Info />}></Route>
+					<Route path="/anime/:id" element={<Info />}></Route>
+				</Routes>
+				<Footer />
+			</div>
+		</Router>
+	);
 }
 
 export default App;
