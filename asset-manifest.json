@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/manga-anime-info/static/css/main.916f8df9.css",
+    "main.js": "/manga-anime-info/static/js/main.ea19cfc3.js",
+    "static/media/sasha-eating.jpg": "/manga-anime-info/static/media/sasha-eating.e0ac57dc802bf204fc8c.jpg",
+    "index.html": "/manga-anime-info/index.html",
+    "main.916f8df9.css.map": "/manga-anime-info/static/css/main.916f8df9.css.map",
+    "main.ea19cfc3.js.map": "/manga-anime-info/static/js/main.ea19cfc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.916f8df9.css",
+    "static/js/main.ea19cfc3.js"
+  ]
+}
