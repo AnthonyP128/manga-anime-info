@@ -1,12 +1,8 @@
-# This is both an Anime and Manga information web application 
+# This is both an Anime and Manga information web application
 
 This uses the following API https://docs.api.jikan.moe/
 
 This is bult using React JS!
-
-To view the live website click the following https://manga-anime-info.herokuapp.com/
-
-
 
 ## To run this project
 
